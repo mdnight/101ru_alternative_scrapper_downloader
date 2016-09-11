@@ -1,0 +1,7 @@
+#!/bin/bash
+
+python scrap.py
+mkdir Music
+
+#знаю, что качает не с ВК. Исправлю позже, если получится
+python getFromVK.py
